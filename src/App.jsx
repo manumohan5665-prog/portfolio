@@ -1,4 +1,3 @@
-
 import "./index.css";
 
 function App() {
@@ -231,6 +230,53 @@ function App() {
           </a>
         </div>
       </section>
+
+      {/* Contact Section */}
+      <section className="contact-section" id="contact">
+        <p className="contact-label">04 / START A CONVERSATION</p>
+
+        <h2>
+          Have a good idea?
+          <span>Let's make it happen.</span>
+        </h2>
+
+        <div className="contact-bottom">
+          <a
+            href="mailto:manumohan5665@gmail.com"
+            className="email-link"
+          >
+            <span></span>
+            manumohan5665@gmail.com
+          </a>
+
+          <div className="social-links">
+            <a
+              href="https://github.com/manumohan5665-prog"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="GitHub"
+            >
+              GH
+            </a>
+
+            <a
+              href="https://linkedin.com/in/manu-mohandas-dev"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="LinkedIn"
+            >
+              LI
+            </a>
+          </div>
+        </div>
+      </section>
+
+      {/* Footer */}
+      <footer className="site-footer">
+        <span>© 2026 Manu Mohandas</span>
+        <span>Designed & built with care</span>
+        <a href="#home">Back to top ↑</a>
+      </footer>
 
 
     </main>
