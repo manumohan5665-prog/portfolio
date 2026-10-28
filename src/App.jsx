@@ -3,7 +3,7 @@ import { FaGithub, FaLinkedinIn, FaEnvelope } from "react-icons/fa";
 
 function App() {
   return (
-    <main>
+    <main id="main-content">
       {/* Navigation */}
       <nav className="navbar">
         <a href="#home" className="logo">
