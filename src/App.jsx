@@ -1,4 +1,5 @@
 import "./index.css";
+import { FaGithub, FaLinkedinIn, FaEnvelope } from "react-icons/fa";
 
 function App() {
   return (
@@ -245,7 +246,7 @@ function App() {
             href="mailto:manumohan5665@gmail.com"
             className="email-link"
           >
-            <span></span>
+            <span><FaEnvelope /></span>
             manumohan5665@gmail.com
           </a>
 
@@ -256,7 +257,7 @@ function App() {
               rel="noreferrer"
               aria-label="GitHub"
             >
-              GH
+              <FaGithub />
             </a>
 
             <a
@@ -265,7 +266,7 @@ function App() {
               rel="noreferrer"
               aria-label="LinkedIn"
             >
-              LI
+              <FaLinkedinIn />
             </a>
           </div>
         </div>
